@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: Nunito Sans;
+}
+
+body {
+    background-color: #016db6;
+}
+
+.nav {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px 0 5px;
+    font-size: 40px;
+    color: #016db6;
+}
+
+
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+.banner h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    /* padding: 80px 0; */
+    display: flex;
+    justify-content: center;
+}
+
+.banner h3{
+color: #016db6;
+font-size: 23px;
+text-align: center;
+background-color: #ffdd2f;
+}
+
+.banner2 {
+    display: flex;
+    justify-content: center;
+}
+
+.banner2 .input_monto {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: #016db6;
+    width: 20%;
+    height: 100px;
+    font-size: 80px;
+    color: #fffdfd;
+    text-align: center;
+    border: none;
+}
+.input_monto:focus {
+    border: none;
+    outline: none;
+}
+
+.signo {
+    color: #fff;
+    font-size: 80px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    height: 100px;
+}
+
+.button {
+    padding: 50px 0 150px 0;
+}
+
+.saldo_actual_label {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.button_access {
+    background-color: #ffffff;
+    width: 350px;
+    height: 100px;
+    border-radius: 15px;
+    border: none;
+    font-size: 40px;
+    color: #016db6;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_access:hover {
+    border: solid 5px #ffdd2f;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+}
+
+.button_exit {
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #016db6;
+    border: none;
+}
+
+.button_exit:hover {
+    background-color:  #ffdd2f;
+    color: #016db6;
+}
